@@ -1,0 +1,27 @@
+<div class="swiper-slide">
+    <div id="wrapper3">
+        <div id="scroll3">
+            <div id="pullDown2">
+                <span class="pullDownLabel">下拉刷新</span>
+            </div>
+            <div class="liep">
+                <dl ng-repeat="val in date">
+                <dt><img ng-src="{{val.src}}" alt="imgs1"></dt>
+                <dd>
+                    <h3>{{val.title}}</h3>
+                    <div class="liepan-icon">
+                        <i class="iconfont icon-gengduo1 f20"></i>
+                        </div>
+                    <div class="liepan-icons">
+                        <i class="iconfont icon-xihuan-xianxing"></i>
+                        {{val.ion}}
+                        </div>
+                    </dd>
+                </dl>
+            </div>
+            <div id="pullUp2">
+                <span class="pullUpLabel">加载更多</span>
+            </div>
+        </div>
+    </div>
+</div>

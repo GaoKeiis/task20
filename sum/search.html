@@ -1,0 +1,16 @@
+<div ng-controller="cont">
+    <div class="form">
+        <input type="text" placeholder="请输入歌手名字" ng-model="vague">
+        <span ng-click="add(vague)">点击搜索</span>
+
+    </div>
+    <ul class="li-main">
+        <li ng-repeat="i in txt | filte:$scope.txt">
+            <span> {{i.name}}</span>
+        </li>
+    </ul>
+</div>
+
+
+
+

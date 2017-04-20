@@ -1,0 +1,150 @@
+@import url(../sass/common.css);
+@import url(../sass/iconfont.css);
+@import url(../sass/reset.css);
+@import url(../sass/swiper.css);
+body {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column; }
+
+.music-head {
+  position: relative;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #fff;
+  background: #2CA2F9; }
+
+.head-title {
+  width: 24%;
+  padding-left: 40%; }
+  .head-title h3 {
+    font-size: 16px;
+    border: 1px solid #fff;
+    box-shadow: .1px .1px .9px #fff;
+    border-radius: 5px; }
+
+.head-icon {
+  position: absolute;
+  top: 18%;
+  left: 3%; }
+
+.head-icons {
+  position: absolute;
+  right: 3%;
+  top: 31%; }
+
+.music-main {
+  flex: 1;
+  overflow: hidden;
+  overflow-y: scroll; }
+
+.main-nav {
+  padding-top: 6px;
+  display: flex;
+  text-align: center; }
+  .main-nav nav {
+    font-size: 14px;
+    flex: 1;
+    padding-bottom: 10px;
+    box-sizing: border-box; }
+
+.swiper-container1 {
+  position: relative;
+  overflow: hidden; }
+  .swiper-container1 img {
+    width: 100%; }
+
+.swiper-pagination-fraction, .swiper-pagination-custom, .swiper-container-horizontal > .swiper-pagination-bullets {
+  bottom: 3px; }
+
+.wrap {
+  position: absolute;
+  top: 100%;
+  bottom: 50px;
+  width: 100%;
+  height: 360px;
+  overflow: hidden; }
+
+.readen {
+  position: relative;
+  padding: 0 10px 10px; }
+  .readen ul li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #E5E5E5; }
+    .readen ul li i {
+      position: absolute;
+      right: 5%; }
+
+.pullUp, #pullDown1, #pullUp1, #pullUp2, #pullDown2, #pullUp3, #pullDown3 {
+  padding: 0 10px;
+  height: 30px;
+  line-height: 30px;
+  color: #888;
+  text-align: center; }
+
+.on {
+  border-bottom: 2px solid #2CA2F9; }
+
+.liepan, .liep, .lisp {
+  padding: 0 8px; }
+  .liepan dl, .liep dl, .lisp dl {
+    position: relative;
+    display: flex;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #ccc; }
+    .liepan dl dt, .liep dl dt, .lisp dl dt {
+      padding-right: 10px; }
+      .liepan dl dt img, .liep dl dt img, .lisp dl dt img {
+        width: 100%; }
+    .liepan dl dd h3, .liep dl dd h3, .lisp dl dd h3 {
+      padding-top: 21px;
+      padding-bottom: 5px;
+      font-size: 14px; }
+
+.liepan-icon {
+  position: absolute;
+  top: 30%;
+  right: 4%;
+  color: #E2E2E2; }
+
+.liepan-icons {
+  color: #ccc; }
+
+.list {
+  position: relative;
+  margin: 10px;
+  background: #FBFBFB; }
+  .list li {
+    padding: 10px;
+    border: 1px solid #ccc; }
+    .list li i {
+      position: absolute;
+      right: 3%;
+      color: #ccc; }
+
+.form {
+  padding: 10px;
+  border-radius: 10px;
+  background: #ccc; }
+  .form input {
+    padding: 10px;
+    width: 70%;
+    border-radius: 10px;
+    border: none; }
+  .form span {
+    border: 1px solid #ccc;
+    padding: 2px 3px;
+    box-shadow: 1px 1px 1px #000;
+    border-radius: 5px; }
+
+.li-main {
+  padding: 10px; }
+  .li-main li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc; }
